@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminostudy Home Page</title>
+    <script src="script.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container" style="/*margin-left:20px; */ margin-top:-20px">
+            <a class="navbar-logo" href="index.html">
+                <img src="assets/logo.png" alt="Luminostudy" width="250" height="75">
+            </a>
+            <span class="navbar-text">
+                <a class="page-link" href="index.html">
+                    <b>Home</b>
+                </a>
+            </span>
+            <span class="navbar-text">
+                <a class="page-link" href="services.html">
+                    <b>Tutoring Services</b>
+                </a>
+            </span>
+            <span class="navbar-text">
+                <a class="page-link" href="tutors.html">
+                    <b>Tutors</b>
+                </a>
+            </span>
+            <span class="navbar-text">
+                <a class="page-link" href="contact.html">
+                    <b>Contact</b>
+                </a>
+            </span>
+            <span class="navbar-text">
+                <a class="page-link" href="location.html">
+                    <b>Location</b>
+                </a>
+            </span>
+            <span class="navbar-text">
+                <a class="page-link" href="testimonials.html">
+                    <b>Testimonials</b>
+                </a>
+            </span>
+            <a class="page-link" href="#">
+                <button class="d-flex" type="button" id="book-now"><b class="text-center">Book Now</b></button>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" style="margin-top:30px; margin-bottom:40px">
+            <h1 class="page-title" style="font-size:40px;">Step 1: Enter session details</h1>
+        </div>
+        <form class="row g-3" style="padding-left:25rem; padding-right:25rem">
+            <div class="col-md-12">
+                <label for="serviceType" class="form-label">1. Select tutoring service</label>
+                <select class="form-select" id="serviceType" aria-placeholder="Select service" required>
+                    <option value="" selected="selected" style="display:none" disabled="true">Select service</option>
+                    <option value="homeworkHelp">Homework help</option>
+                    <option value="subjectTutoring">Subject tutoring</option>
+                    <option value="testPreparation">Test preparation</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label for="subject" class="form-label">2. Select subject</label>
+                <select class="form-select" id="subject" required>
+                    <option value="" selected="selected" style="display:none" disabled="true">Select subject</option>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                    <option value="french">French</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label for="tutor" class="form-label">3. Select tutor</label>
+                <select class="form-select" id="tutor" required>
+                    <option value="" selected="selected" style="display:none" disabled="true">Select tutor</option>
+                    <option value="alina">Alina Hassan</option>
+                    <option value="victor">Victor Brown</option>
+                    <option value="idris">Idris Mbale</option>
+                </select>
+            </div>
+            <div class="row text-center" style="margin-top: 3.75rem">
+                <div class="row" style="margin-top: 3.75rem">
+                    <a class="page-link anchor-btn" href="booking_date_time.html" style="margin-top:-5rem; margin-left:5rem">
+                       <button class="d-flex get-started-btn text-center" type="submit"
+                            style="height:2.5rem; width:18.75rem;" id="step2Btn" formaction="booking_date_time.html"><b class="text-center" style="font-size:22px">
+                                Continue to Step 2 ->
+                        </button> 
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>

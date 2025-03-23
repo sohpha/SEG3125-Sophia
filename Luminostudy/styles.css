@@ -1,0 +1,277 @@
+body {
+    background-color: #F0F0DC;
+    font-family: Inter;
+}
+
+.navbar {
+    background: #E1E1B9;
+    height: 8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-cont {
+    margin-left:20px;
+}
+
+.navbar-text {
+    color: black;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+#book-now {
+    margin-right: -4.688rem;
+    margin-top: 1.563rem;
+    background-color: #F7C744;
+    border-radius: 3.75rem;
+    height: 2.563rem;
+    width: 8.125rem;
+    border: none;
+    padding: 0px;
+}
+
+.home-button {
+    background-color: #218EBC;
+    border-radius: 3.75rem;
+    border: none;
+    color: white;
+    width: 23.313rem;
+    height: 4.25rem;
+    font-size: 5.625rem;
+}
+
+.text-center {
+    margin: auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.page-link {
+    text-decoration: none;
+}
+
+.current {
+    text-decoration: underline;
+    text-decoration-thickness: 0.156rem;
+}
+
+.image-with-text {
+    margin-top: 4.25rem;
+    margin-left: -5rem;
+    position: relative;
+}
+
+.statement-title {
+    position: absolute;
+    top: 9.375rem;
+    left: 9.375rem;
+    width: 100%;
+    font-size: 5.625rem;
+    font-family: Yeseva One;
+    color: black;
+}
+
+.statement-subtitle {
+    position: absolute;
+    top: 23.75rem;
+    left: 9.375rem;
+    font-size: 34px;
+    color: black;
+    font-weight: 400;
+}
+
+.card {
+    border-radius: 60px;
+    background-color: rgba(247, 199, 68, 0.70);
+    border: 1px;
+    border-color: black;
+    /*#F7C744;*/
+    outline: 2.5px solid;
+    height: 450px;
+}
+
+.card-img-top {
+    border-radius: 60px 60px 0px 0px;
+    outline: 2px solid;
+    border-color: #F7C744;
+    width: 100%;
+
+}
+
+.card-title {
+    font-family: Yeseva One;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-family: Inter;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.get-started-btn {
+    background-color: #218EBC;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 18.75rem;
+    height: 4.25rem;
+    font-size: 90px;
+    font-family: Inter;
+}
+
+.page-title {
+    text-align: center;
+    font-family: Yeseva One;
+    color: black;
+    font-size: 50px;
+}
+
+#location-image {
+    border-radius: 60px;
+    border: 3px solid;
+    border-color: #F7C744;
+    height: 560px;
+    width: 500px;
+}
+
+.location-heading {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px
+}
+
+.location-subheading {
+    font-size: 20px
+}
+
+.form-control {
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: #F7C744;
+}
+
+.form-select {
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: #F7C744;
+
+}
+
+#MessageBox {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    height: 100px;
+}
+
+.form-label {
+    margin-left: 10px;
+    font-family: Inter;
+    font-weight: bold;
+    color: black;
+}
+
+.serviceCard {
+    background-color: transparent;
+    outline: 3px solid;
+    border-color: rgba(247, 199, 68, 0.80);
+    height: 570px;
+    width: 22rem;
+}
+
+.serviceCardBody {
+    background-color: rgba(247, 199, 68, 0.70);
+    border-radius: 60px 60px 0px 0px;
+    /*height:75px;*/
+    height: 15%;
+    width: 100%;
+    outline: 3px solid;
+
+}
+
+.card-title-service {
+    margin-top: 1.25rem;
+}
+
+.card-subtitle {
+    font-size: 25px;
+    font-family: Inter;
+    color: black;
+    margin-top: 30px;
+}
+
+.card-text-service {
+    font-size: 25px;
+    font-family: Inter;
+    color: black;
+    margin-top: 7px;
+}
+
+.card-img-bottom {
+    margin-top: -3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.anchor-btn {
+    background-color: #218EBC;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 225px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.anchor-btn:hover {
+    background-color: #218EBC;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 225px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bookingConfirmation {
+    font-family: Inter;
+    background: white;
+    border-radius: 60px;
+    border: 3px #F7C744 solid;
+    height:380px;
+    width: 600px;
+    padding-top: 20px;
+}
+
+#bookingConfirmation h4 {
+    font-size: 20px;
+}
+
+.testimonial {
+    font-family:Inter;
+    font-weight:250;
+    margin-top:20px;
+}
